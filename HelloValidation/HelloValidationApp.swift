@@ -11,7 +11,9 @@ import SwiftUI
 struct HelloValidationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView()
+//            LoginViewWithMVVM()
+//            LoginViewWithSummaryMessage()
         }
     }
 }

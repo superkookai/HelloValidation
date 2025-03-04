@@ -6,17 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFED0EEB2D769621004D09A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFED0EE52D769621004D09A0 /* Preview Assets.xcassets */; };
+		EFED0EEC2D769621004D09A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFED0EE72D769621004D09A0 /* Assets.xcassets */; };
+		EFED0EED2D769621004D09A0 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED0EE82D769621004D09A0 /* LoginView.swift */; };
+		EFED0EEE2D769621004D09A0 /* HelloValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED0EE92D769621004D09A0 /* HelloValidationApp.swift */; };
+		EFED0EF12D769771004D09A0 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED0EF02D769771004D09A0 /* String+Ext.swift */; };
+		EFED0EF82D76A2EF004D09A0 /* LoginViewWithMVVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED0EF72D76A2EF004D09A0 /* LoginViewWithMVVM.swift */; };
+		EFED0EFA2D76A725004D09A0 /* LoginViewWithSummaryMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFED0EF92D76A725004D09A0 /* LoginViewWithSummaryMessage.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFED0ED42D769618004D09A0 /* HelloValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFED0EE52D769621004D09A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFED0EE72D769621004D09A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFED0EE82D769621004D09A0 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		EFED0EE92D769621004D09A0 /* HelloValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloValidationApp.swift; sourceTree = "<group>"; };
+		EFED0EF02D769771004D09A0 /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		EFED0EF72D76A2EF004D09A0 /* LoginViewWithMVVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewWithMVVM.swift; sourceTree = "<group>"; };
+		EFED0EF92D76A725004D09A0 /* LoginViewWithSummaryMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewWithSummaryMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFED0ED62D769618004D09A0 /* HelloValidation */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloValidation;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFED0ED12D769618004D09A0 /* Frameworks */ = {
@@ -32,7 +41,7 @@
 		EFED0ECB2D769618004D09A0 = {
 			isa = PBXGroup;
 			children = (
-				EFED0ED62D769618004D09A0 /* HelloValidation */,
+				EFED0EEA2D769621004D09A0 /* HelloValidation */,
 				EFED0ED52D769618004D09A0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,36 @@
 				EFED0ED42D769618004D09A0 /* HelloValidation.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFED0EE62D769621004D09A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFED0EE52D769621004D09A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFED0EEA2D769621004D09A0 /* HelloValidation */ = {
+			isa = PBXGroup;
+			children = (
+				EFED0EEF2D76974F004D09A0 /* Extension */,
+				EFED0EE82D769621004D09A0 /* LoginView.swift */,
+				EFED0EF72D76A2EF004D09A0 /* LoginViewWithMVVM.swift */,
+				EFED0EF92D76A725004D09A0 /* LoginViewWithSummaryMessage.swift */,
+				EFED0EE92D769621004D09A0 /* HelloValidationApp.swift */,
+				EFED0EE72D769621004D09A0 /* Assets.xcassets */,
+				EFED0EE62D769621004D09A0 /* Preview Content */,
+			);
+			path = HelloValidation;
+			sourceTree = "<group>";
+		};
+		EFED0EEF2D76974F004D09A0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFED0EF02D769771004D09A0 /* String+Ext.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +98,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFED0ED62D769618004D09A0 /* HelloValidation */,
 			);
 			name = HelloValidation;
 			packageProductDependencies = (
@@ -109,6 +145,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFED0EEB2D769621004D09A0 /* Preview Assets.xcassets in Resources */,
+				EFED0EEC2D769621004D09A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +157,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFED0EFA2D76A725004D09A0 /* LoginViewWithSummaryMessage.swift in Sources */,
+				EFED0EF82D76A2EF004D09A0 /* LoginViewWithMVVM.swift in Sources */,
+				EFED0EF12D769771004D09A0 /* String+Ext.swift in Sources */,
+				EFED0EED2D769621004D09A0 /* LoginView.swift in Sources */,
+				EFED0EEE2D769621004D09A0 /* HelloValidationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
